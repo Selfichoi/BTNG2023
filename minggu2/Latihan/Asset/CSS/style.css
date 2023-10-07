@@ -1,0 +1,49 @@
+h1 {
+    color:red;
+}
+/* id selector */
+#judul {
+    color: red
+    font-weight: 800;
+}
+/* class selector */
+.sub-judul {
+    color: red;
+    text-shadow: 5px 3px 5px red;
+}
+
+.content {
+    font-style:italic;
+    color: black;
+}
+/* multiple selector */
+.p1, .p3 {
+    color:rgb(240, 163, 217);
+}
+/* hover */
+.link:hover {
+    background-colour: black;
+    color: white;
+}
+
+.box {
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+}
+.box .content {
+    border: 1px solid black;
+    background-color: pink;
+}
+.box p {
+    color: black;
+}
+body {
+    background-image: url(../Image/Screenshot\ \(345\).png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.border {
+    border: 1px solid;
+    border-style: dotted;
+}
